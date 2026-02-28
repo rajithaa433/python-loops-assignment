@@ -13,6 +13,7 @@ temps_fahrenheit = temps_celsius * 1.8 + 32
 # Calculate average Fahrenheit
 avg_fahrenheit = round(np.mean(temps_fahrenheit), 1)
 
+
 # Print results
 print("Celsius:", temps_celsius)
 print("Fahrenheit:", temps_fahrenheit)
